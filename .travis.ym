@@ -3,7 +3,6 @@ jdk:
   - oraclejdk8
 notifications:
   email:
-  #notificaciones
     recipients:
       - fernando.ricaurte@hotmail.com
     on_success: always
