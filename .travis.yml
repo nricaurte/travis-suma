@@ -1,6 +1,8 @@
 language: java
-java:
-  "8.0"
 jdk:
-  - oraclejdk7
   - oraclejdk8
+  - oraclejdk7
+  - openjdk6
+script:
+  - jdk_switcher use oraclejdk8
+  - jdk_switcher use oraclejdk7
