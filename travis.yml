@@ -1,9 +1,9 @@
 language: java
+
 jdk:
+  - openjdk7
+  - oraclejdk7
   - oraclejdk8
-notifications:
-  email:
-    recipients:
-      - fernando.ricaurte@hotmail.com
-    on_success: always
-    
+
+script:
+  - gradle clean test jar
