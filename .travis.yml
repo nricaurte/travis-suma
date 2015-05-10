@@ -1,7 +1,4 @@
 language: java
-install: ant deps
-mvn test
-mvn install -DskipTests=true
 jdk:
   - oraclejdk8
   - oraclejdk7
