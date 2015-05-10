@@ -6,4 +6,3 @@ jdk:
 script:
   - jdk_switcher use oraclejdk8
   - jdk_switcher use oraclejdk7
-  - gradle clean test jar
