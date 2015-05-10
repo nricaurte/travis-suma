@@ -4,4 +4,4 @@ jdk:
   - openjdk7
   - openjdk6
 script:
-  ./travis-suma/test/test_travis/Suma_test.java
+  mvn test
